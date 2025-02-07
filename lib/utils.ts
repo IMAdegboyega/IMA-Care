@@ -28,7 +28,7 @@ export const formatDateTime = (dateString: Date | string, timeZone: string = Int
     month: "2-digit", // abbreviated month name (e.g., 'Oct')
     day: "2-digit", // numeric day of the month (e.g., '25')
     timeZone: timeZone, // use the provided timezone
-  };
+  }; 
 
   const dateOptions: Intl.DateTimeFormatOptions = {
     month: "short", // abbreviated month name (e.g., 'Oct')
